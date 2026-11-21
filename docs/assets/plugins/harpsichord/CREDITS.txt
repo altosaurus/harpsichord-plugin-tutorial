@@ -1,0 +1,56 @@
+Harpsichord instrument pack
+
+Pictures
+Andreas Ruckers, Antwerp, 1636, rebuilt by Pascal Taskin, Paris, 1787.
+Museum für Kunst und Gewerbe Hamburg.
+Photographs by Rainer Halama for Wiki Loves Music, published under
+Creative Commons Zero (CC0 1.0), https://creativecommons.org/publicdomain/zero/1.0/
+Source: Wikimedia Commons, category "Taskin harpsichord (1787, MKG)".
+For Alto, the photographs were scaled down and converted to WebP.
+
+  images/harpsichord-overview.webp   Wiki loves Music - Hamburg-5871.jpg
+  images/harpsichord-keyboards.webp  Wiki loves Music - Hamburg-5872.jpg
+  images/harpsichord-strings.webp    Wiki loves Music - Hamburg-5873.jpg
+  images/harpsichord-bentside.webp   Wiki loves Music - Hamburg-5874.jpg
+  images/harpsichord-spine.webp      Wiki loves Music - Hamburg-5876.jpg
+
+Recordings
+Versilian Community Sample Library (VCSL), by Versilian Studios LLC.
+Folder: Chordophones/Zithers/Harpsichord, Flemish (Sustains/Low, the 8' register).
+Source: https://github.com/sgossner/VCSL
+License: Creative Commons Zero (CC0 1.0). No credit is required. Credit is given here anyway.
+The recordings are supplied without warranties. They are not of the instrument in the pictures.
+
+This pack includes one take for every whole tone from F#1 to C6. For Alto, each take was
+trimmed to the pluck, cut to 1.6 seconds, level-matched, faded out, and converted to
+32 kHz mono 16-bit PCM WAV. The filenames below identify the original takes.
+
+Pack pitch and original filename
+F#1  HarpsiRH_Low_Far_F#0_rr1.wav
+G#1  HarpsiRH_Low_Far_G#0_rr1.wav
+A#1  HarpsiRH_Low_Far_A#0_rr1.wav
+C2   HarpsiRH_Low_Far_C1_rr1.wav
+D2   HarpsiRH_Low_Far_D1_rr1.wav
+E2   HarpsiRH_Low_Far_E1_rr1.wav
+F#2  HarpsiRH_Low_Far_F#1_rr1.wav
+G#2  HarpsiRH_Low_Far_G#1_rr1.wav
+A#2  HarpsiRH_Low_Far_A#1_rr1.wav
+C3   HarpsiRH_Low_Far_C2_rr1.wav
+D3   HarpsiRH_Low_Far_D2_rr1.wav
+E3   HarpsiRH_Low_Far_E2_rr1.wav
+F#3  HarpsiRH_Low_Far_F#2_rr1.wav
+G#3  HarpsiRH_Low_Far_G#2_rr1.wav
+A#3  HarpsiRH_Low_Far_A#2_rr1.wav
+C4   HarpsiRH_Low_Far_C3_rr1.wav
+D4   HarpsiRH_Low_Far_D3_rr1.wav
+E4   HarpsiRH_Low_Far_E3_rr1.wav
+F#4  HarpsiRH_Low_Far_F#3_rr1.wav
+G#4  HarpsiRH_Low_Far_G#3_rr1.wav
+A#4  HarpsiRH_Low_Far_A#3_rr1.wav
+C5   HarpsiRH_Low_Far_C4_rr1.wav
+D5   HarpsiRH_Low_Far_D4_rr1.wav
+E5   HarpsiRH_Low_Far_E4_rr1.wav
+F#5  HarpsiRH_Low_Far_F#4_rr1.wav
+G#5  HarpsiRH_Low_Far_G#4_rr1.wav
+A#5  HarpsiRH_Low_Far_A#4_rr1.wav
+C6   HarpsiRH_Low_Far_C5_rr1.wav

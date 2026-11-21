@@ -1,0 +1,1353 @@
+{
+  "format": 2,
+  "id": "harpsichord",
+  "name": "Harpsichord Instrument Pack",
+  "instruments": [
+    {
+      "id": "flemish-harpsichord",
+      "name": "Flemish harpsichord",
+      "image": "images/harpsichord-overview.webp",
+      "views": {
+        "keyboards": "images/harpsichord-keyboards.webp",
+        "strings": "images/harpsichord-strings.webp",
+        "bentside": "images/harpsichord-bentside.webp",
+        "spine": "images/harpsichord-spine.webp"
+      },
+      "keyboards": [
+        {
+          "name": "Upper manual",
+          "lowest": "E1",
+          "highest": "F6"
+        },
+        {
+          "name": "Lower manual",
+          "lowest": "E1",
+          "highest": "F6"
+        }
+      ],
+      "gain": 0.9,
+      "samples": {
+        "F#1": "sounds/F#1.wav",
+        "G#1": "sounds/G#1.wav",
+        "A#1": "sounds/A#1.wav",
+        "C2": "sounds/C2.wav",
+        "D2": "sounds/D2.wav",
+        "E2": "sounds/E2.wav",
+        "F#2": "sounds/F#2.wav",
+        "G#2": "sounds/G#2.wav",
+        "A#2": "sounds/A#2.wav",
+        "C3": "sounds/C3.wav",
+        "D3": "sounds/D3.wav",
+        "E3": "sounds/E3.wav",
+        "F#3": "sounds/F#3.wav",
+        "G#3": "sounds/G#3.wav",
+        "A#3": "sounds/A#3.wav",
+        "C4": "sounds/C4.wav",
+        "D4": "sounds/D4.wav",
+        "E4": "sounds/E4.wav",
+        "F#4": "sounds/F#4.wav",
+        "G#4": "sounds/G#4.wav",
+        "A#4": "sounds/A#4.wav",
+        "C5": "sounds/C5.wav",
+        "D5": "sounds/D5.wav",
+        "E5": "sounds/E5.wav",
+        "F#5": "sounds/F#5.wav",
+        "G#5": "sounds/G#5.wav",
+        "A#5": "sounds/A#5.wav",
+        "C6": "sounds/C6.wav"
+      },
+      "sound_info": {
+        "summary": "A Flemish harpsichord's 8' register, plucked and left to ring, from the Versilian Community Sample Library.",
+        "source": "Versilian Community Sample Library (VCSL), folder Chordophones/Zithers/Harpsichord, Flemish, by Versilian Studios LLC",
+        "source_url": "https://github.com/sgossner/VCSL",
+        "performer": "Not stated",
+        "recorded": "Not stated",
+        "includes": "The 8' register: one take for every whole tone from F#1 to C6, played at one touch because a harpsichord does not change its volume with the key",
+        "terms": "Creative Commons Zero (CC0): free to use for any purpose with no credit required. Credit is given here anyway.",
+        "note": "Each take was trimmed to the pluck, cut to 1.6 seconds, level-matched, faded out, and converted to 32 kHz mono 16-bit audio. The recording is of a different Flemish harpsichord than the one pictured."
+      },
+      "keyboard_style": {
+        "white": [
+          "#4a3b30",
+          "#241a14"
+        ],
+        "white_edge": "#000000",
+        "black": [
+          "#4b3b30",
+          "#2a2019"
+        ],
+        "black_edge": "#000000",
+        "case": "#120d09",
+        "cap": "#eee3c8",
+        "narrow": 0.95,
+        "gap": 1.5,
+        "round": 2,
+        "length": 4.5
+      },
+      "kind": "harpsichord"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "intervals-on-two-manuals",
+      "title": "Harpsichord Interval Identification",
+      "description": "Identify intervals on the harpsichord.",
+      "type": "keyboard-intervals",
+      "instrument": "flemish-harpsichord",
+      "keyboards": [
+        "Lower manual",
+        "Upper manual"
+      ],
+      "lowest": "E1",
+      "highest": "F6",
+      "intervals": [
+        "m2",
+        "M2",
+        "m3",
+        "M3",
+        "P4",
+        "A4 / d5",
+        "P5",
+        "m6",
+        "M6",
+        "m7",
+        "M7",
+        "P8"
+      ],
+      "placements": [
+        "same",
+        "across"
+      ],
+      "icon": "icons/interval-plan.svg",
+      "lessons": [
+        "intervals-on-the-keys"
+      ],
+      "default_range": [
+        "C3",
+        "C5"
+      ],
+      "settings": {
+        "sound": "Harpsichord sound",
+        "range": true,
+        "intervals": true,
+        "manuals": true
+      }
+    },
+    {
+      "id": "harpsichord-parts",
+      "title": "Parts of the Harpsichord",
+      "description": "Name the parts of the harpsichord.",
+      "type": "image-choice",
+      "instrument": "flemish-harpsichord",
+      "icon": "icons/harpsichord.svg",
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ],
+      "questions": [
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            733,
+            600
+          ],
+          "choices": [
+            "Lid",
+            "Nameboard",
+            "Apron",
+            "Cheek"
+          ],
+          "answer": "Lid",
+          "marker_size": 100,
+          "focus": [
+            250,
+            60,
+            1000,
+            1000
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            950,
+            693
+          ],
+          "choices": [
+            "Prop stick",
+            "Lid",
+            "Jackrail",
+            "Leg"
+          ],
+          "answer": "Prop stick",
+          "marker_size": 44,
+          "focus": [
+            450,
+            300,
+            850,
+            800
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            908,
+            1750
+          ],
+          "choices": [
+            "Leg",
+            "Prop stick",
+            "Apron",
+            "Cheek"
+          ],
+          "answer": "Leg",
+          "marker_size": 90,
+          "focus": [
+            550,
+            1400,
+            700,
+            800
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1300,
+            1055
+          ],
+          "choices": [
+            "Upper manual",
+            "Lower manual",
+            "Nameboard",
+            "Jackrail"
+          ],
+          "answer": "Upper manual",
+          "view": "keyboards",
+          "marker_size": 50,
+          "focus": [
+            200,
+            700,
+            2200,
+            700
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            800,
+            1190
+          ],
+          "choices": [
+            "Lower manual",
+            "Upper manual",
+            "Nameboard",
+            "Jackrail"
+          ],
+          "answer": "Lower manual",
+          "view": "keyboards",
+          "marker_size": 50,
+          "focus": [
+            200,
+            700,
+            2200,
+            700
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1560,
+            880
+          ],
+          "choices": [
+            "Nameboard",
+            "Jackrail",
+            "Cheek",
+            "Apron"
+          ],
+          "answer": "Nameboard",
+          "view": "keyboards",
+          "marker_size": 80,
+          "focus": [
+            700,
+            640,
+            1500,
+            600
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1300,
+            735
+          ],
+          "choices": [
+            "Jackrail",
+            "Nameboard",
+            "Cheek",
+            "Lid"
+          ],
+          "answer": "Jackrail",
+          "view": "keyboards",
+          "marker_size": 80,
+          "focus": [
+            700,
+            600,
+            1300,
+            500
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            2290,
+            1000
+          ],
+          "choices": [
+            "Cheek",
+            "Nameboard",
+            "Apron",
+            "Jackrail"
+          ],
+          "answer": "Cheek",
+          "view": "keyboards",
+          "marker_size": 90,
+          "focus": [
+            1800,
+            700,
+            780,
+            700
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1500,
+            1550
+          ],
+          "choices": [
+            "Apron",
+            "Nameboard",
+            "Cheek",
+            "Leg"
+          ],
+          "answer": "Apron",
+          "view": "keyboards",
+          "marker_size": 90,
+          "focus": [
+            700,
+            1380,
+            1500,
+            320
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1000,
+            1222
+          ],
+          "choices": [
+            "Natural key",
+            "Sharp key",
+            "Jackrail",
+            "Nameboard"
+          ],
+          "answer": "Natural key",
+          "view": "keyboards",
+          "marker_size": 36,
+          "focus": [
+            650,
+            1100,
+            700,
+            260
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1692,
+            1150
+          ],
+          "choices": [
+            "Sharp key",
+            "Natural key",
+            "Jackrail",
+            "Nameboard"
+          ],
+          "answer": "Sharp key",
+          "view": "keyboards",
+          "marker_size": 36,
+          "focus": [
+            1300,
+            1050,
+            700,
+            260
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            704,
+            524
+          ],
+          "choices": [
+            "Tuning pin",
+            "Damper",
+            "Wrest plank",
+            "Jackrail"
+          ],
+          "answer": "Tuning pin",
+          "view": "strings",
+          "marker_size": 70,
+          "focus": [
+            250,
+            200,
+            800,
+            550
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1028,
+            221
+          ],
+          "choices": [
+            "Damper",
+            "Tuning pin",
+            "Wrest plank",
+            "Jackrail"
+          ],
+          "answer": "Damper",
+          "view": "strings",
+          "marker_size": 70,
+          "focus": [
+            700,
+            60,
+            800,
+            450
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1450,
+            700
+          ],
+          "choices": [
+            "Wrest plank",
+            "Damper",
+            "Tuning pin",
+            "Nameboard"
+          ],
+          "answer": "Wrest plank",
+          "view": "strings",
+          "marker_size": 100,
+          "focus": [
+            1000,
+            450,
+            800,
+            500
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            1060,
+            630
+          ],
+          "choices": [
+            "Bentside",
+            "Spine",
+            "Lid",
+            "Apron"
+          ],
+          "answer": "Bentside",
+          "view": "bentside",
+          "marker_size": 110,
+          "focus": [
+            100,
+            450,
+            1700,
+            400
+          ]
+        },
+        {
+          "prompt": "Which part of the harpsichord is marked?",
+          "point": [
+            655,
+            851
+          ],
+          "choices": [
+            "Spine",
+            "Bentside",
+            "Lid",
+            "Leg"
+          ],
+          "answer": "Spine",
+          "view": "spine",
+          "marker_size": 120,
+          "focus": [
+            0,
+            600,
+            1800,
+            500
+          ]
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "parts-of-the-harpsichord",
+      "title": "Parts of the Harpsichord",
+      "about": "Learn the names of the harpsichord's main parts, from the lid and keyboards to the tuning pins, so you can follow directions about the instrument.",
+      "summary": "Name the parts you see on a double harpsichord.",
+      "category": "Harpsichord",
+      "icon": "icons/harpsichord.svg",
+      "exercise": "harpsichord-parts",
+      "steps": [
+        {
+          "title": "A double harpsichord",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "marker": false
+          },
+          "text": [
+            "A **harpsichord** is a keyboard instrument whose strings are plucked. The one in these pictures was built by Andreas Ruckers in Antwerp in 1636 and rebuilt in Paris by Pascal Taskin in 1787. It belongs to the Museum für Kunst und Gewerbe in Hamburg.",
+            "It is a **double harpsichord**: it has two keyboards, one above the other. The case is shaped like a long wing. The player sits at the keyboards, and the strings stretch away from them inside the case."
+          ],
+          "task": {
+            "prompt": "How many keyboards does a double harpsichord have?",
+            "choices": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "answer": "Two",
+            "hint": "Look at the front of the instrument, where the player sits.",
+            "explanation": "A double harpsichord has two keyboards, one above the other."
+          }
+        },
+        {
+          "title": "The lid and the prop stick",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "focus": [
+              250,
+              60,
+              1000,
+              1000
+            ],
+            "marker": false
+          },
+          "text": [
+            "The large hinged top is the **lid**. A harpsichord is usually played with the lid raised, and many lids are painted on the inside, as this one is.",
+            "A thin wooden rod called the **prop stick** holds the lid open. Look for the pale rod that runs from the lid down to the case."
+          ],
+          "task": {
+            "prompt": "Click the prop stick.",
+            "targets": [
+              {
+                "point": [
+                  760,
+                  485
+                ],
+                "radius": 70
+              },
+              {
+                "point": [
+                  900,
+                  640
+                ],
+                "radius": 70
+              },
+              {
+                "point": [
+                  1040,
+                  795
+                ],
+                "radius": 70
+              }
+            ],
+            "hint": "It is a long, pale, straight rod, much thinner than the lid.",
+            "explanation": "That is the prop stick."
+          }
+        },
+        {
+          "title": "The keyboards",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "view": "keyboards",
+            "focus": [
+              200,
+              700,
+              2200,
+              700
+            ],
+            "marker": false
+          },
+          "text": [
+            "Each keyboard of a harpsichord is called a **manual**. A double harpsichord has an **upper manual** and a **lower manual**. The lower manual is the one nearer the player.",
+            "The keys on this harpsichord look reversed. The natural keys are dark with gold-colored fronts, and the sharp keys are topped with white strips. Most pianos use the opposite colors."
+          ],
+          "task": {
+            "prompt": "Click the lower manual.",
+            "targets": [
+              {
+                "point": [
+                  700,
+                  1190
+                ],
+                "radius": 60
+              },
+              {
+                "point": [
+                  1000,
+                  1190
+                ],
+                "radius": 60
+              },
+              {
+                "point": [
+                  1900,
+                  1190
+                ],
+                "radius": 60
+              }
+            ],
+            "hint": "The lower manual is the keyboard nearer the bottom of the picture.",
+            "explanation": "That is the lower manual. The upper manual sits behind it and a little higher."
+          }
+        },
+        {
+          "title": "The nameboard and the jackrail",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "view": "keyboards",
+            "focus": [
+              250,
+              640,
+              2100,
+              520
+            ],
+            "marker": false
+          },
+          "text": [
+            "Behind the keys stands the **nameboard**. Makers often decorated it and put their name on it. This one reads ANDREAS RUCKERS ANTVERPIAE 1636: Andreas Ruckers of Antwerp, 1636.",
+            "Above the nameboard lies the **jackrail**, painted red here. It rests across the **jacks**, the small upright pieces that pluck the strings, and it limits how far they can rise."
+          ],
+          "task": {
+            "prompt": "Which part carries the maker's name?",
+            "choices": [
+              "Nameboard",
+              "Jackrail",
+              "Prop stick"
+            ],
+            "answer": "Nameboard",
+            "hint": "Read the gold lettering behind the keys.",
+            "explanation": "The maker's name is written on the nameboard."
+          }
+        },
+        {
+          "title": "Inside the case",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "view": "strings",
+            "marker": false
+          },
+          "text": [
+            "Near the keyboards, steel **tuning pins** hold the strings. A string is wound around each pin, and turning the pin raises or lowers the pitch.",
+            "The pins stand in the **wrest plank**, the painted board you see here. The small tufts of green felt are **dampers**. They rest on the strings to silence a note when its key is released."
+          ],
+          "task": {
+            "prompt": "Click one of the tuning pins.",
+            "targets": [
+              {
+                "point": [
+                  704,
+                  524
+                ],
+                "radius": 70
+              },
+              {
+                "point": [
+                  892,
+                  630
+                ],
+                "radius": 70
+              },
+              {
+                "point": [
+                  418,
+                  342
+                ],
+                "radius": 70
+              }
+            ],
+            "hint": "Tuning pins are the steel pegs with coils of wire around them.",
+            "explanation": "That is a tuning pin."
+          }
+        },
+        {
+          "title": "The case and the legs",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "view": "bentside",
+            "marker": false
+          },
+          "text": [
+            "The sides of the case have names too. The curved side, on the player's right, is the **bentside**. The long straight side, on the player's left, is the **spine**.",
+            "The case stands on tapering **legs**. The decorated rail that runs below the case is the **apron**."
+          ],
+          "task": {
+            "prompt": "Which side of the case curves inward?",
+            "choices": [
+              "Bentside",
+              "Spine"
+            ],
+            "answer": "Bentside",
+            "hint": "One side of the case is straight, and the other is curved.",
+            "explanation": "The bentside is the curved side. The spine is straight."
+          }
+        }
+      ]
+    },
+    {
+      "id": "intervals-on-the-keys",
+      "title": "Intervals on a Double Harpsichord",
+      "about": "Count the half steps between two keys and name the interval, on either manual of a double harpsichord.",
+      "summary": "Name the interval between two highlighted keys.",
+      "category": "Harpsichord",
+      "icon": "icons/interval-plan.svg",
+      "exercise": "intervals-on-two-manuals",
+      "steps": [
+        {
+          "title": "Two manuals, the same keys",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "view": "keyboards",
+            "focus": [
+              200,
+              700,
+              2200,
+              700
+            ],
+            "marker": false
+          },
+          "text": [
+            "Both manuals of this harpsichord have the same keys in the same order, from E1 up to F6. Alto treats a key on the upper manual as the same pitch as the matching key on the lower manual.",
+            "That means an interval depends only on the two pitches, not on which manual each key is on. Use the button below to hear the plucked sound of this harpsichord."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "G4"
+            ],
+            [
+              "E5"
+            ]
+          ],
+          "hear_label": "Hear three notes",
+          "hear_instrument": "flemish-harpsichord"
+        },
+        {
+          "title": "The half step",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "keys": [
+              [
+                "Lower manual",
+                "C4"
+              ],
+              [
+                "Lower manual",
+                "C#4"
+              ]
+            ],
+            "span": [
+              "C3",
+              "C5"
+            ]
+          },
+          "text": [
+            "The distance from one key to the very next key, whatever its color, is a **half step**. C4 and the sharp key just above it, C#4, are a half step apart.",
+            "On this harpsichord, count the dark natural keys and the white-topped sharp keys together. Each key is one half step from its neighbor."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "C#4"
+            ]
+          ],
+          "hear_label": "Hear a half step",
+          "hear_instrument": "flemish-harpsichord"
+        },
+        {
+          "title": "The whole step",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "keys": [
+              [
+                "Lower manual",
+                "C4"
+              ],
+              [
+                "Lower manual",
+                "D4"
+              ]
+            ],
+            "span": [
+              "C3",
+              "C5"
+            ]
+          },
+          "text": [
+            "Two half steps make a **whole step**. C4 and D4 have one key between them, C#4, so they are a whole step apart."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "D4"
+            ]
+          ],
+          "hear_label": "Hear a whole step",
+          "hear_instrument": "flemish-harpsichord",
+          "task": {
+            "prompt": "How many half steps separate the two highlighted keys?",
+            "choices": [
+              "1",
+              "2",
+              "3"
+            ],
+            "answer": "2",
+            "hint": "Count every key, including the one between them, and count the steps.",
+            "explanation": "C4 to C#4 is one half step, and C#4 to D4 is another, so the keys are 2 half steps apart."
+          }
+        },
+        {
+          "title": "Naming the interval",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "keys": [
+              [
+                "Lower manual",
+                "C4"
+              ],
+              [
+                "Lower manual",
+                "E4"
+              ]
+            ],
+            "span": [
+              "C3",
+              "C5"
+            ]
+          },
+          "text": [
+            "An **interval** is the distance between two pitches. Count the half steps from the lower key to the higher key, then give it a name. Four half steps make a **major third**, written M3. Three half steps make a **minor third**, written m3.",
+            "Listen to the two. The major third sounds bright, and the minor third sounds darker."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "E4"
+            ],
+            [
+              "C4"
+            ],
+            [
+              "Eb4"
+            ]
+          ],
+          "hear_label": "Hear M3, then m3",
+          "hear_instrument": "flemish-harpsichord",
+          "task": {
+            "prompt": "The highlighted keys are C4 and E4. What interval is this?",
+            "choices": [
+              "m3",
+              "M3",
+              "P4",
+              "P5"
+            ],
+            "answer": "M3",
+            "hint": "Count the half steps from C4 up to E4.",
+            "explanation": "C4 to E4 is 4 half steps: a major third (M3)."
+          }
+        },
+        {
+          "title": "All the intervals within an octave",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "keys": [
+              [
+                "Lower manual",
+                "C4"
+              ],
+              [
+                "Lower manual",
+                "G4"
+              ]
+            ],
+            "span": [
+              "C3",
+              "C5"
+            ]
+          },
+          "text": [
+            "1 half step is a minor second (m2), and 2 is a major second (M2). 3 is m3 and 4 is M3. 5 is a perfect fourth (P4), 6 is the tritone (A4 / d5), and 7 is a perfect fifth (P5).",
+            "8 is a minor sixth (m6), 9 is a major sixth (M6), 10 is a minor seventh (m7), 11 is a major seventh (M7), and 12 is a perfect octave (P8). C4 and G4 are 7 half steps apart: a perfect fifth."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "G4"
+            ],
+            [
+              "C4"
+            ],
+            [
+              "C5"
+            ]
+          ],
+          "hear_label": "Hear P5, then P8",
+          "hear_instrument": "flemish-harpsichord",
+          "task": {
+            "prompt": "How many half steps are in a perfect fifth?",
+            "choices": [
+              "5",
+              "7",
+              "9"
+            ],
+            "answer": "7",
+            "hint": "Look at the C4 and G4 highlighted above.",
+            "explanation": "A perfect fifth is 7 half steps."
+          }
+        },
+        {
+          "title": "Across the two manuals",
+          "picture": {
+            "instrument": "flemish-harpsichord",
+            "keys": [
+              [
+                "Lower manual",
+                "C4"
+              ],
+              [
+                "Upper manual",
+                "A4"
+              ]
+            ],
+            "span": [
+              "C3",
+              "C5"
+            ]
+          },
+          "text": [
+            "The two highlighted keys can sit on different manuals. The interval is still the distance in pitch, from the lower note to the higher one.",
+            "Here a C4 on the lower manual and an A4 on the upper manual are 9 half steps apart: a major sixth (M6)."
+          ],
+          "hear": [
+            [
+              "C4"
+            ],
+            [
+              "A4"
+            ]
+          ],
+          "hear_label": "Hear the major sixth",
+          "hear_instrument": "flemish-harpsichord",
+          "task": {
+            "prompt": "What interval do these two keys make?",
+            "choices": [
+              "m6",
+              "M6",
+              "m7"
+            ],
+            "answer": "M6",
+            "hint": "Count the half steps from C4 up to A4.",
+            "explanation": "C4 to A4 is 9 half steps: a major sixth (M6)."
+          }
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "harpsichord",
+      "definition": "A **harpsichord** is a keyboard instrument whose strings are plucked, not struck. Pressing a key lifts a small upright piece called a jack, and a pick in the jack plucks the string.",
+      "guide": "Listen for the quick, bright attack that fades away. Pressing a key harder does not make the note louder.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "marker": false
+      },
+      "caption": "A double harpsichord made by Andreas Ruckers in 1636",
+      "exercises": [
+        "harpsichord-parts",
+        "intervals-on-two-manuals"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord",
+        "intervals-on-the-keys"
+      ]
+    },
+    {
+      "term": "double harpsichord",
+      "definition": "A **double harpsichord** has two keyboards, one above the other. Each keyboard can play its own set of strings, so a player can change tone color by moving from one to the other.",
+      "guide": "Look at the front of the instrument. Two rows of keys mean it is a double.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "focus": [
+          200,
+          700,
+          2200,
+          700
+        ],
+        "marker": false
+      },
+      "caption": "The two manuals of a double harpsichord",
+      "exercises": [
+        "harpsichord-parts",
+        "intervals-on-two-manuals"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord",
+        "intervals-on-the-keys"
+      ]
+    },
+    {
+      "term": "manual",
+      "definition": "A **manual** is a keyboard played with the hands. A double harpsichord has an upper manual and a lower manual.",
+      "guide": "The lower manual is the one nearer the player. The upper manual sits behind it and a little higher.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "point": [
+          800,
+          1190
+        ],
+        "marker_size": 50,
+        "focus": [
+          200,
+          700,
+          2200,
+          700
+        ]
+      },
+      "caption": "The lower manual",
+      "exercises": [
+        "harpsichord-parts",
+        "intervals-on-two-manuals"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord",
+        "intervals-on-the-keys"
+      ]
+    },
+    {
+      "term": "nameboard",
+      "definition": "The **nameboard** is the board behind the keys. Makers often decorated it and wrote their name, their city, and the year on it.",
+      "guide": "On the harpsichord pictured, it reads ANDREAS RUCKERS ANTVERPIAE 1636.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "point": [
+          1560,
+          880
+        ],
+        "marker_size": 80,
+        "focus": [
+          700,
+          640,
+          1500,
+          600
+        ]
+      },
+      "caption": "The nameboard",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "jackrail",
+      "definition": "The **jackrail** is a rail that lies across the jacks, the small upright pieces that pluck the strings. It limits how far the jacks can rise.",
+      "guide": "On the harpsichord pictured, it is the red board above the nameboard.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "point": [
+          1300,
+          735
+        ],
+        "marker_size": 80,
+        "focus": [
+          700,
+          600,
+          1300,
+          500
+        ]
+      },
+      "caption": "The jackrail",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "cheek",
+      "definition": "A **cheek** is the block at either end of the keyboards. It closes in the space where the keys sit.",
+      "guide": "Look at the ends of the keys. The block beside them is the cheek.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "point": [
+          2290,
+          1000
+        ],
+        "marker_size": 90,
+        "focus": [
+          1800,
+          700,
+          780,
+          700
+        ]
+      },
+      "caption": "The cheek at the right end of the keyboards",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "prop stick",
+      "definition": "The **prop stick** is a thin rod that holds the open lid up.",
+      "guide": "Look for the pale rod running from the underside of the lid to the case.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "point": [
+          950,
+          693
+        ],
+        "marker_size": 44,
+        "focus": [
+          450,
+          300,
+          850,
+          800
+        ]
+      },
+      "caption": "The prop stick",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "lid",
+      "definition": "The **lid** is the large hinged top of the case. A harpsichord is usually played with the lid raised.",
+      "guide": "Many lids are painted on the inside, as this one is.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "point": [
+          733,
+          600
+        ],
+        "marker_size": 100,
+        "focus": [
+          250,
+          60,
+          1000,
+          1000
+        ]
+      },
+      "caption": "The lid, raised on its prop stick",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "bentside",
+      "definition": "The **bentside** is the curved side of the case. It sits on the player's right.",
+      "guide": "Compare it with the spine, which is straight.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "bentside",
+        "point": [
+          1060,
+          630
+        ],
+        "marker_size": 110,
+        "focus": [
+          100,
+          450,
+          1700,
+          400
+        ]
+      },
+      "caption": "The bentside",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "spine",
+      "definition": "The **spine** is the long straight side of the case. It sits on the player's left.",
+      "guide": "Compare it with the bentside, which curves.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "spine",
+        "point": [
+          655,
+          851
+        ],
+        "marker_size": 120,
+        "focus": [
+          0,
+          600,
+          1800,
+          500
+        ]
+      },
+      "caption": "The spine",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "wrest plank",
+      "definition": "The **wrest plank** is the thick board that holds the tuning pins.",
+      "guide": "On the harpsichord pictured, it is painted with flowers, and a line of lettering records that Pascal Taskin rebuilt the instrument in Paris in 1787.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "strings",
+        "point": [
+          1450,
+          700
+        ],
+        "marker_size": 100,
+        "focus": [
+          1000,
+          450,
+          800,
+          500
+        ]
+      },
+      "caption": "The wrest plank",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "tuning pin",
+      "definition": "A **tuning pin** is a steel peg that a string is wound around. Turning it raises or lowers the pitch of the string.",
+      "guide": "Look for the steel pegs with coils of wire around them.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "strings",
+        "point": [
+          704,
+          524
+        ],
+        "marker_size": 70,
+        "focus": [
+          250,
+          200,
+          800,
+          550
+        ]
+      },
+      "caption": "A tuning pin",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "damper",
+      "definition": "A **damper** is a small piece of felt that rests on a string and silences it when its key is released.",
+      "guide": "On the harpsichord pictured, the dampers are the tufts of green felt.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "strings",
+        "point": [
+          1028,
+          221
+        ],
+        "marker_size": 70,
+        "focus": [
+          700,
+          60,
+          800,
+          450
+        ]
+      },
+      "caption": "A damper",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    },
+    {
+      "term": "apron",
+      "definition": "The **apron** is the decorated rail that runs along the bottom of the case, above the legs.",
+      "guide": "On the harpsichord pictured, it is painted with gold leaves.",
+      "picture": {
+        "instrument": "flemish-harpsichord",
+        "view": "keyboards",
+        "point": [
+          1500,
+          1550
+        ],
+        "marker_size": 90,
+        "focus": [
+          700,
+          1380,
+          1500,
+          320
+        ]
+      },
+      "caption": "The apron",
+      "exercises": [
+        "harpsichord-parts"
+      ],
+      "lessons": [
+        "parts-of-the-harpsichord"
+      ]
+    }
+  ]
+}
